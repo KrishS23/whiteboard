@@ -1,0 +1,53 @@
+# Node modules (dependencies)
+node_modules/
+
+# Environment variables (secrets)
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+**/.DS_Store
+
+# Optional build directories
+dist/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage and testing
+coverage/
+.nyc_output/
+
+# VS Code settings
+.vscode/
+
+# Dependency lock files (optional, choose one)
+# Uncomment only one if you're using it
+# package-lock.json
+# yarn.lock
+
+# Optional: ignore compiled files
+*.out
+*.tsbuildinfo
+
+# Optional: ignore uploads (if you're storing files temporarily)
+uploads/
+
+# Optional: ignore temporary folders
+temp/
+tmp/
+
+# Optional: PM2 logs (if you're using PM2 process manager)
+pids/
+*.pid
+*.log
