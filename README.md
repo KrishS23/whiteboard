@@ -2,32 +2,6 @@
 
 This is a full-stack whiteboard collaboration application with a backend built using Node.js and Express, and a separate frontend (inside frontend1.zip).
 
----
-
-## 📁 Project Structure
-
-Whiteboard_project/
-├── authMiddleware.js
-├── canvasController.js
-├── canvasModel.js
-├── canvasRoutes.js
-├── config.js
-├── frontend1.zip # Frontend code (React or static site)
-├── package.json
-├── package-lock.json
-├── server.js # Entry point of the backend server
-├── userController.js
-├── userModel.js
-├── userRoutes.js
-├── vercel.json # Vercel deployment config (optional)
-└── .env # Environment variables (not included)
-
-yaml
-Copy
-Edit
-
----
-
 ## ⚙ Backend Setup (Express + MongoDB)
 
 ### 🛠 Install dependencies
